@@ -1,0 +1,129 @@
+.chonburi-regular {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4dfc7;
+}
+
+header, footer {
+    background-color: #8f6f4b;
+    padding: 1em;
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+}
+
+#header h1 {
+    color: #f4dfc7;
+    font-size: 35px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#navigation {
+    color: #f4dfc7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navigation:hover {
+    text-decoration: underline;
+    color: #402f1a;
+}
+
+main {
+    padding: 20px;
+}
+
+#about h2 {
+    color: #8f6f4b;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Chonburi", serif;
+
+}
+
+#about p {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#gallery h2 {
+    color: #8f6f4b;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Chonburi", serif;
+}
+
+.glide__slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#buttonprev {
+    background-color: #402f1a;
+    color: #f4dfc7;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#buttonnext {
+    background-color: #402f1a;
+    color: #f4dfc7;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+#locations h2 {
+    color: #8f6f4b;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Chonburi", serif;
+}
+
+#address-input {
+    width: 30%; 
+    padding: 8px 10px; 
+    font-size: 16px; 
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #8f6f4b;
+    border-radius: 4px;  
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+    margin-bottom: 20px;  
+    background-color: #ffffff;  
+    color: #333;  
+}
+
+#address-input:focus {
+    border-color: #402f1a;  
+    outline: none; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    color: #f4dfc7;
+    align-items: center;
+    padding-left: 450px;
+    display: inline;
+}
