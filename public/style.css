@@ -75,6 +75,13 @@ main {
     border-radius: 8px;
 }
 
+image:hover {
+    width: 150px; 
+    padding: 8px 15px; 
+    visibility: visible; 
+    opacity: 0.7;
+}
+
 #buttonprev {
     background-color: #402f1a;
     color: #f4dfc7;
