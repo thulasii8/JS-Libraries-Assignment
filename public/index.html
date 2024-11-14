@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="path/to/lightbox.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header id="header">
+        <h1>Langley's Furniture</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" id="navigation">About Us</a></li>
+                <li><a href="#gallery" id="navigation">Gallery</a></li>
+                <li><a href="#locations" id="navigation">Locations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section id="about" data-aos="fade-in">
+            <h2>About Us</h2>
+            <p>Welcome to our Furniture Store. We offer high-quality, sustainable furniture to beautify your home.</p>
+        </section>
+        <section id="gallery" data-aos="fade-up">
+            <h2>Gallery</h2>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide"><a href="" data-lightbox="gallery"><img src="images/AdobeStock_408770900.jpeg" alt="Furniture Image 1"></a></li>
+                        <li class="glide__slide"><a href="" data-lightbox="gallery"><img src="images/AdobeStock_185296999.jpeg" alt="Furniture Image 2"></a></li>
+                        <li class="glide__slide"><a href="" data-lightbox="gallery"><img src="images/AdobeStock_415193384.jpeg" alt="Furniture Image 3"></a></li>
+                    </ul>
+                </div>
+                <div class="buttons" data-glide-el="controls">
+                    <button id="buttonprev" data-glide-dir="">Prev</button>
+                    <button id="buttonnext" data-glide-dir=">">Next</button>
+                </div>
+            </div>
+        </section>
+        <section id="locations" data-aos="zoom-in">
+            <h2>Our Locations</h2>
+            <input type="text" id="address-input" placeholder="Enter your address...">
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Langley's Furniture Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="https://cdn.jsdelivr.net/npm/algolia-places-dist/algolia-places.min.js"></script>
+    <script src="path/to/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
